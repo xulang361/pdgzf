@@ -5,7 +5,7 @@ const path = require('path');
 // 网站登录后右击检查》打开console>输入 localStorage.getItem('accessToken')  回车下一行显示的就是就是你的accessToken
 //改成你的accessToken
 
-const accessToken = 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1CJpYXQiOjE3Mjk2MDkxMzUsImV4cCI6MTcyOTY5NTUzNX0.P6gp9EeGrk3dP11_L1m6OSZdpsGeM-BgYy-tnPp3ryo'
+const accessToken = 'eyJhbGciOiJIUzI1NiJYTAzYi1lZTQzODExZTUzODIiLCJpYXQiOjE3Mjk2MDkxMzUsImV4cCI6MTcyOTY5NTUzNX0.P6gp9EeGrk3dP11_L1m6OSZdpsGeM-BgYy-tnPp3ryo'
 
 // 定义基础 curl 命令
 const baseCurlCommand = `curl 'https://select.pdgzf.com/api/v1.0/app/gzf/house/list' \
